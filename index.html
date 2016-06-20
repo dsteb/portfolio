@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dmitrii Stebliuk Portfolio</title>
+    <link rel="stylesheet" href="css/zocial.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-2 col-md-6">
+          <img class="header-logo img-responsive img-circle" src="images/me.jpg" alt="My photo">
+        </div>
+        <div class="col-xs-12 col-sm-10 col-md-6 text-right text-uppercase">
+          <h1 class="header-name">Dmitrii Stebliuk</h1>
+          <h2 class="header-description">Front-end ninja</h2>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <section class="row">
+        <div class="col-md-12"><img src="images/banner.png" alt="Welcome image" class="img-responsive"
+      </section>
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="muted">Featured Work</h2>
+        </div>
+      </section>
+      <section class="row text-center">
+        <article class="col-xs-12 col-sm-6 col-md-4 project">
+          <div>
+            <img class="img-responsive selectable img-filter" src="images/italy-project.jpg" alt="Venice panoram" data-toggle="modal" data-target="#italy-project">
+          </div>
+          <h3>Property in Italy</h3>
+          <div><a class="responsive" href="https://github.com/gardenhouse-padova/dev" target="_blank">https://github.com/gardenhouse-padova/dev</a></div>
+        </article>
+        <article class="col-xs-12 col-sm-6 col-md-4 project">
+          <div>
+            <img class="img-responsive selectable" src="images/animal-project.jpg" alt="Animal Cards" data-toggle="modal" data-target="#animals-project">
+          </div>
+          <h3>Animal cards</h3>
+          <div><a class="responsive" href="projects/animals/index.html" target="_blank">View</a></div>
+        </article>
+        <article class="col-xs-12 col-sm-6 col-md-4 project">
+          <div>
+            <img class="img-responsive selectable" src="images/responsive-project.jpg" alt="The newspaper image" data-toggle="modal" data-target="#responsive-project">
+          </div>
+          <h3>The Brighton Times</h3>
+          <div><a class="responsive" href="projects/responsive/index.html" target="_blank">View</a></div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="container text-center">
+        <li><a href="https://github.com/n43jl" class="zocial-github selectable" target="_blank"></a></li>
+        <li><a href="https://www.linkedin.com/in/dmitrii-stebliuk-1bb44954?trk=hp-identity-name" class="zocial-linkedin selectable" target="_blank"></a></li>
+      </ul>
+    </footer>
+
+    <section class="modal fade" id="italy-project" tabindex="-1" role="dialog" aria-labelledby="italyProjectLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="italyProjectLabel">Italian House Advertisment</h4>
+                </div>
+                <div class="modal-body flex">
+                  <div class="col-1-3">
+                    <img class="img-responsive" src="images/italy-project-welcome.jpg" alt="Project welcome">
+                  </div>
+                  <div class="col-2-3 modal-txt-right">
+                    <p>There is a stereotype that Russians are very rich.
+                    Well, of course as any stereotype sometimes it is true.</p>
+                    <p>My friend asked me to put Italian house selling ad in Russian sites.
+                      As a developer I decided that this ad needs it is own page in the Internet :)</p>
+                    <p>I believe layout-responsiveness and image-responsiveness are important!
+                      So you can try it on mobile, tablet or high-resolution displays and it is also optimized for low-bandwidth.
+                    <p>
+                    <p>
+                      <a class="responsive" href="https://gardenhouse-padova.github.io" target="_blank">Do you need a huge villa in Italy near Venice?</a>
+                    </p>
+                    <p>
+                      <strong>Keywords:</strong>
+                      <span class="label label-default">HTML5</span>
+                      <span class="label label-default">CSS</span>
+                      <a class="label label-default" target="_blank" href="http://www.w3schools.com/css/css_rwd_images.asp">responsive images</a>
+                      <a class="label label-default"  target="_blank" href="http://fontawesome.io/icons/">font-icons</a>
+                      <a class="label label-default"  target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flex layout</a>
+                      <a class="label label-default"  target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element#Content_sectioning">semantic web</a>
+                      <a class="label label-default"  target="_blank" href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/?hl=en">responsive layout</a>
+                      <a class="label label-default"  target="_blank" href="http://gruntjs.com/">grunt</a>
+                      <a class="label label-default"  target="_blank" href="https://github.com/andismith/grunt-responsive-images">grunt-responsive-images</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal fade" id="animals-project" tabindex="-1" role="dialog" aria-labelledby="animalsProjectLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="animalsProjectLabel">Animals trading cards</h4>
+                </div>
+                <div class="modal-body">
+                  <img class="img-responsive img-modal" src="images/clownfish.jpg" alt="Clownfish">
+                  <p>Stylish cards for children and adults!
+                    Thanks <a href="http://udacity.org" target="_blank">Udacity</a> for design concept!
+                  </p>
+                  <p>
+                    <a class="responsive" href="projects/animals/index.html" target="_blank">You can check animal cards here.</a>
+                  </p>
+                  <p>
+                    <strong>Keywords:</strong>
+                    <span class="label label-default">HTML5</span>
+                    <span class="label label-default">CSS</span>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal fade" id="responsive-project" tabindex="-1" role="dialog" aria-labelledby="responsiveProjectLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="responsiveProjectLabel">The Brighton Times</h4>
+                </div>
+                <div class="modal-body">
+                  <img class="img-responsive img-modal" src="images/responsive-project.jpg" alt="News image">
+                  <p>The concept for the Brighton Times website.
+                    The project is done during the <a href="http://udacity.org" target="_blank">Udacity Frontent Nanodegree</a>.
+                  </p>
+                  <p>
+                    <a class="responsive" href="projects/responsive/index.html" target="_blank">Check it here with different viewports!</a>
+                  </p>
+                  <p>
+                    <strong>Keywords:</strong>
+                    <span class="label label-default">HTML5</span>
+                    <span class="label label-default">CSS</span>
+                    <a class="label label-default" target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flex layout</a>
+                    <a class="label label-default" target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element#Content_sectioning">semantic web</a>
+                    <a class="label label-default" target="_blank" href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/?hl=en">responsive layout</a>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

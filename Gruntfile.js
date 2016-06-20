@@ -15,11 +15,11 @@ module.exports = function(grunt) {
             quality: 30
           }, {
             width: 400,
-            suffix: '_medium_1x',
+            suffix: '_medium',
             quality: 30
           }, {
             width: 200,
-            suffix: '_small_1x',
+            suffix: '_small',
             quality: 30
           }]
         },

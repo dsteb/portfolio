@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/n43jl/portfolio#readme",
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "grunt-responsive-images": "^0.1.9"
   }
 }

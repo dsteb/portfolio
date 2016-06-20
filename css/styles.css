@@ -97,3 +97,10 @@ footer a {
   top: 4px;
   font-size: 1.4em;
 }
+
+@media screen and (max-width: 768px) {
+  .project-img {
+    display: block;
+    margin: 0 auto;
+  }
+}

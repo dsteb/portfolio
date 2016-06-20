@@ -9,6 +9,10 @@ module.exports = function(grunt) {
             width: 1600,
             suffix: '_large_2x',
             quality: 30
+          }, {
+            width: 800,
+            suffix: '_large_1x',
+            quality: 30
           }]
         },
         files: [{

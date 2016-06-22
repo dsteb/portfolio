@@ -36,6 +36,9 @@ body {
 }
 
 .flex {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex;
   display: flex;
 }
 
@@ -77,8 +80,8 @@ hr {
 }
 
 .img-filter {
-  -webkit-filter: saturate(50%);
-          filter: saturate(50%);
+  -webkit-filter: saturate(50%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+          filter: saturate(50%); /* FF 35+ */
 }
 
 .modal-txt-right {

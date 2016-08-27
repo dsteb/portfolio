@@ -43,6 +43,13 @@
       <div class="row text-center">
         <article class="col-xs-12 col-sm-6 col-md-4 project">
           <div class="project-preview">
+            <img srcset="images/cv-project-400_medium.jpg 1x, images/cv-project-800_large_1x.jpg 2x" class="img-responsive selectable img-filter project-img" src="images/cv-project-400_medium.jpg" alt="EuroAsia Map" data-toggle="modal" data-target="#cv-project">
+          </div>
+          <h3 class="text-uppercase">Interactive CV</h3>
+          <div class="project-link"><a class="responsive" href="https://github.com/dsteb/cv" target="_blank">https://github.com/dsteb/cv</a></div>
+        </article>
+        <article class="col-xs-12 col-sm-6 col-md-4 project">
+          <div class="project-preview">
             <img srcset="images/italy-project-400_medium.jpg 1x, images/italy-project-800_large_1x.jpg 2x" class="img-responsive selectable img-filter project-img" src="images/italy-project-400_medium.jpg" alt="Venice panoram" data-toggle="modal" data-target="#italy-project">
           </div>
           <h3 class="text-uppercase">Property in Italy</h3>
@@ -92,6 +99,40 @@
         <li><a href="https://www.linkedin.com/in/dmitrii-stebliuk-1bb44954?trk=hp-identity-name" class="zocial-linkedin selectable" target="_blank" aria-hidden="true"></a></li>
       </ul>
     </footer>
+
+    <section class="modal fade" id="cv-project" tabindex="-1" role="dialog" aria-labelledby="cvProjectLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="cvProjectLabel">Interactive CV</h4>
+                </div>
+                <div class="modal-body flex">
+                  <div class="col-1-3">
+                    <img class="img-responsive" src="images/cv-project-200_small.jpg" srcset="images/cv-project-200_small.jpg 1x, images/cv-project-200_medium.jpg 2x" alt="CV project">
+                  </div>
+                  <div class="col-2-3 modal-txt-right">
+                    <p>Simple project done during Udacity Frontend Nanodegree and Introduction to JavaScript course.
+                      <a class="responsive" href="https://dsteb.github.io/cv" target="_blank">You can check it here!</a>
+                    </p>
+                    <p>
+                      <a class="responsive" href="https://github.com/dsteb/cv" target="_blank">Sources are also available.</a>
+                    </p>
+                    <p>
+                      <strong>Keywords:</strong>
+                      <span class="label label-default">HTML5</span>
+                      <span class="label label-default">CSS</span>
+                      <span class="label label-default">JQuery</span>
+                      <span class="label label-default">Google Maps API</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="modal fade" id="italy-project" tabindex="-1" role="dialog" aria-labelledby="italyProjectLabel" aria-hidden="true">
         <div class="modal-dialog">

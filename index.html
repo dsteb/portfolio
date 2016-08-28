@@ -43,11 +43,19 @@
       <div class="row text-center">
         <article class="col-xs-12 col-sm-6 col-md-4 project">
           <div class="project-preview">
+            <img srcset="images/game-project-400_medium.jpg 1x, images/game-project-800_large_1x.jpg 2x" class="img-responsive selectable img-filter project-img" src="images/game-project-400_medium.jpg" alt="Frogger Game" data-toggle="modal" data-target="#game-project">
+          </div>
+          <h3 class="text-uppercase">Arcade Game</h3>
+          <div class="project-link"><a class="responsive" href="https://github.com/dsteb/frogger-game" target="_blank">https://github.com/dsteb/frogger-game</a></div>
+        </article>
+        <article class="col-xs-12 col-sm-6 col-md-4 project">
+          <div class="project-preview">
             <img srcset="images/cv-project-400_medium.jpg 1x, images/cv-project-800_large_1x.jpg 2x" class="img-responsive selectable img-filter project-img" src="images/cv-project-400_medium.jpg" alt="EuroAsia Map" data-toggle="modal" data-target="#cv-project">
           </div>
           <h3 class="text-uppercase">Interactive CV</h3>
           <div class="project-link"><a class="responsive" href="https://github.com/dsteb/cv" target="_blank">https://github.com/dsteb/cv</a></div>
         </article>
+        <div class="clearfix visible-sm-block"></div>
         <article class="col-xs-12 col-sm-6 col-md-4 project">
           <div class="project-preview">
             <img srcset="images/italy-project-400_medium.jpg 1x, images/italy-project-800_large_1x.jpg 2x" class="img-responsive selectable img-filter project-img" src="images/italy-project-400_medium.jpg" alt="Venice panoram" data-toggle="modal" data-target="#italy-project">
@@ -55,6 +63,7 @@
           <h3 class="text-uppercase">Property in Italy</h3>
           <div class="project-link"><a class="responsive" href="https://github.com/gardenhouse-padova/dev" target="_blank">https://github.com/gardenhouse-padova/dev</a></div>
         </article>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
         <article class="col-xs-12 col-sm-6 col-md-4 project">
           <div class="project-preview">
             <img srcset="images/animal-project-400_medium.jpg 1x, images/animal-project-800_large_1x.jpg 2x" class="img-responsive selectable project-img" src="images/animal-project-400_medium.jpg" alt="Panda" data-toggle="modal" data-target="#animals-project">
@@ -62,6 +71,7 @@
           <h3 class="text-uppercase">Animal cards</h3>
           <div class="project-link"><a class="responsive" href="projects/animals/index.html" target="_blank">View</a></div>
         </article>
+        <div class="clearfix visible-sm-block"></div>
         <article class="col-xs-12 col-sm-6 col-md-4 project">
           <div class="project-preview">
             <img srcset="images/brighton-times-project-400_medium.jpg 1x, images/brighton-times-project-800_large_1x.jpg 2x" class="img-responsive selectable project-img" src="images/brighton-times-project-400_medium.jpg" alt="The newspaper image" data-toggle="modal" data-target="#brighton-times-project">
@@ -76,6 +86,7 @@
           <h3 class="text-uppercase">Company web site</h3>
           <div class="project-link"><a class="responsive" href="projects/company/index.html" target="_blank">View</a></div>
         </article>
+        <div class="clearfix hidden-xs-block"></div>
         <article class="col-xs-12 col-sm-6 col-md-4 project">
           <div class="project-preview">
             <img srcset="images/blog-project-400_medium.jpg 1x, images/blog-project-800_large_1x.jpg 2x" class="img-responsive selectable img-filter project-img" src="images/blog-project-400_medium.jpg" alt="Writing table" data-toggle="modal" data-target="#blog-project">
@@ -90,6 +101,7 @@
           <h3 class="text-uppercase">Food recipe</h3>
           <div class="project-link"><a class="responsive" href="projects/recipes/index.html" target="_blank">View</a></div>
         </article>
+        <div class="clearfix visible-sm-block"></div>
       </div>
     </main>
 
@@ -100,6 +112,48 @@
       </ul>
     </footer>
 
+    <section class="modal fade" id="game-project" tabindex="-1" role="dialog" aria-labelledby="gameProjectLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="gameProjectLabel">Arcade Game</h4>
+                </div>
+                <div class="modal-body flex">
+                  <div class="col-1-3">
+                    <img class="img-responsive" src="images/game-project-200_small.jpg" srcset="images/game-project-200_small.jpg 1x, images/game-project-200_medium.jpg 2x" alt="Game project">
+                  </div>
+                  <div class="col-2-3 modal-txt-right">
+                    <p>
+                      The clone of the classic arcade <a href="https://en.wikipedia.org/wiki/Frogger" target="_blank">Frogger game</a>.
+                      Udacity provided the art assets.
+                    </p>
+                    <p>
+                      The project is done during <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank">Udacity Front-End Web Developer Nanodegree</a> program and <a href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">Object Oriented Javascript</a> course.
+                    </p>
+                    <p>
+                      You can play it <a href="https://dsteb.github.io/frogger-game" target="_blank">here</a>.
+                    <p>
+                      The <a href="https://github.com/dsteb/frogger-game" target="_blank">sources</a> are also available.
+                    </p>
+                    <p>
+                      <strong>Keywords:</strong>
+                      <span class="label label-default">HTML5</span>
+                      <span class="label label-default">CSS</span>
+                      <span class="label label-default">JQuery</span>
+                      <span class="label label-default">Git</span>
+                      <span class="label label-default">GitHub Pages</span>
+                      <span class="label label-default">Game Loop</span>
+                      <span class="label label-default">Object Oriented JS</span>
+                      <a class="label label-default" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame">RequestAnimationFrame</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="modal fade" id="cv-project" tabindex="-1" role="dialog" aria-labelledby="cvProjectLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -112,16 +166,18 @@
                   </div>
                   <div class="col-2-3 modal-txt-right">
                     <p>Simple project done during Udacity Frontend Nanodegree and Introduction to JavaScript course.
-                      <a class="responsive" href="https://dsteb.github.io/cv" target="_blank">You can check it here!</a>
+                      <a href="https://dsteb.github.io/cv" target="_blank">You can check it here!</a>
                     </p>
                     <p>
-                      <a class="responsive" href="https://github.com/dsteb/cv" target="_blank">Sources are also available.</a>
+                      <a href="https://github.com/dsteb/cv" target="_blank">Sources are also available.</a>
                     </p>
                     <p>
                       <strong>Keywords:</strong>
                       <span class="label label-default">HTML5</span>
                       <span class="label label-default">CSS</span>
                       <span class="label label-default">JQuery</span>
+                      <span class="label label-default">Git</span>
+                      <span class="label label-default">GitHub Pages</span>
                       <span class="label label-default">Google Maps API</span>
                     </p>
                   </div>
@@ -159,6 +215,8 @@
                       <strong>Keywords:</strong>
                       <span class="label label-default">HTML5</span>
                       <span class="label label-default">CSS</span>
+                      <span class="label label-default">Git</span>
+                      <span class="label label-default">GitHub Pages</span>
                       <a class="label label-default" target="_blank" href="http://www.w3schools.com/css/css_rwd_images.asp">responsive images</a>
                       <a class="label label-default"  target="_blank" href="http://fontawesome.io/icons/">font-icons</a>
                       <a class="label label-default"  target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flex layout</a>
